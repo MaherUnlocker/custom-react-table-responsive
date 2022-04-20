@@ -28,6 +28,9 @@
     "type": "git",
     "url": "git+https://github.com/MaherUnlocker/custum-react-table.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/YOUR_GITHUB_USERNAME"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -46,6 +49,7 @@
     "react-select": "^5.3.0",
     "reactstrap": "^8.10.1",
     "styled-components": "^5.3.5",
+    "bootstrap": "4.6.0",
     "tss-react": "^3.3.1"
   },
   "devDependencies": {
@@ -67,7 +71,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "@types/styled-components": "^5.1.25",
-    "bootstrap": "4.6.0",
     "husky": "^7.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
@@ -115,5 +118,8 @@
   "bugs": {
     "url": "https://github.com/MaherUnlocker/custum-react-table/issues"
   },
-  "homepage": "https://github.com/MaherUnlocker/custum-react-table#readme"
+  "homepage": "https://github.com/MaherUnlocker/custum-react-table#readme",
+  "browserslist": [
+    "since 2017-06"
+  ]
 }
