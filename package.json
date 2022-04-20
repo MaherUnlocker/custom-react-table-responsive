@@ -24,12 +24,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MaherUnlocker/custum-react-table.git"
-  },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/YOUR_GITHUB_USERNAME"
+    "access": "public"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -39,17 +35,17 @@
     "@mui/material": "^5.4.2",
     "@mui/styles": "^5.4.2",
     "axios": "0.26.1",
+    "bootstrap": "4.6.0",
     "classnames": "^2.3.1",
     "lodash.concat": "^4.5.0",
     "lodash.isequal": "^4.5.0",
     "lodash.uniqby": "^4.7.0",
     "lodash.without": "^4.4.0",
     "match-sorter": "^6.3.0",
-    "react-table": "^7.7.0",
     "react-select": "^5.3.0",
+    "react-table": "^7.7.0",
     "reactstrap": "^8.10.1",
     "styled-components": "^5.3.5",
-    "bootstrap": "4.6.0",
     "tss-react": "^3.3.1"
   },
   "devDependencies": {
@@ -66,11 +62,11 @@
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "@types/react-table": "^7.7.9",
+    "@types/styled-components": "^5.1.25",
     "@types/testing-library__jest-dom": "^5.14.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "@types/styled-components": "^5.1.25",
     "husky": "^7.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
@@ -99,20 +95,20 @@
   "peerDependencies": {
     "react": ">=16"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "engines": {
     "node": ">=10"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaherUnlocker/custum-react-table.git"
+  },
   "keywords": [
-    "dynamic table",
     "react-table",
     "Global filter",
     "custum Filter",
     "react",
-    "mui"
-  ],
+    "material ui"
+  ]
   "author": "Maher BEN BACCAR",
   "license": "ISC",
   "bugs": {

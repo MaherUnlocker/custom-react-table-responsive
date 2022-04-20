@@ -1,3 +1,4 @@
+import 'regenerator-runtime/runtime';
 import React from 'react';
 import { FilterValue, IdType, Row, customColumnProps } from 'react-table';
 import axios from 'axios';
